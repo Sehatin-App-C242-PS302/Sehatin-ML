@@ -37,8 +37,8 @@ def predict_food_interactive(model, class_indices):
     print(f"Prediksi: {label_name}")
 
 # Path dataset and model
-dataset_path = "C:/Users/valen/Downloads/Sehatin-ML-main/Sehatin-ML/Model 2/food try again/food_datasett" 
-model_path = "C:/Users/valen/Downloads/Sehatin-ML-main/Sehatin-ML\Model 2/food try again/best_model.h5"
+dataset_path = "./Model 2/food try again/food_datasett" 
+model_path = "./Model 2/food try again/best_model.h5"
 
 class_indices, classes = load_class_indices(dataset_path)
 
